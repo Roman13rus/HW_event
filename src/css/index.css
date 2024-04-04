@@ -1,0 +1,18 @@
+.cell {
+    border: 3px solid black;
+    text-align: center;
+    height: 130px;
+    width: 130px;
+    background-color: bisque;
+  }
+  
+.playing-field {
+  cursor: url('../js/gamePerson/img/molot1.png'), auto; 
+}
+
+.banner {
+  text-indent: 30px;
+  text-transform: uppercase;
+  color:red;
+  font-size: 60px;
+}
