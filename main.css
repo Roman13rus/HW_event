@@ -1,0 +1,19 @@
+.cell {
+    border: 3px solid black;
+    text-align: center;
+    height: 130px;
+    width: 130px;
+    background-color: bisque;
+  }
+  
+.playing-field {
+  cursor: url(69b072c5dd92e261f64e.png), auto; 
+}
+
+.banner {
+  text-indent: 10px;
+  text-transform: uppercase;
+  color:red;
+  font-size: 25px;
+}
+
