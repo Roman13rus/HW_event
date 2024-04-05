@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
       game.counterLose++;
     }
     game.conterClick = 0;
-    if (game.counterLose === 5 || game.counterWin === 5) {
+    if (game.counterLose === 5) {
       clearInterval(raund);
       game.outputGameResult();
       person.dellPersonCell();

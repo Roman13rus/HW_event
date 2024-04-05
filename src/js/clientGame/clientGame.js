@@ -37,12 +37,7 @@ export default class GameClient {
     if (res.counterLose === 5) {
       const div = document.createElement('div');
       div.className = 'banner';
-      div.textContent = 'Вы проиграли';
-      this.table.insertAdjacentElement('beforebegin', div);
-    } else if (res.counterWin === 5) {
-      const div = document.createElement('div');
-      div.className = 'banner';
-      div.textContent = 'Вы выиграли';
+      div.textContent = `Игра окончена. Вы набрали ${res.counterWin} очка(ов).`;
       this.table.insertAdjacentElement('beforebegin', div);
     }
   }
